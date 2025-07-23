@@ -1,17 +1,17 @@
 # ecommerce-ai-agent
 
-# 🛒 Ecommerce AI Agent (Internship Assignment for Anarx.ai)
+#  Ecommerce AI Agent (Internship Assignment for Anarx.ai)
 
 This project builds an AI agent that answers e-commerce data questions using Gemini 2.5, FastAPI, and SQLite.
 
-## ✅ Features
+##  Features
 
 - Accepts user questions via API
 - Converts them into SQL queries using Gemini 2.5
 - Executes query on SQLite database
 - Returns clean, readable results
 
-## 📁 Project Structure
+##  Project Structure
 
 - `data_loader.py` — Loads CSVs into SQLite
 - `gemini_query.py` — LLM → SQL conversion using Gemini API
@@ -19,7 +19,7 @@ This project builds an AI agent that answers e-commerce data questions using Gem
 - `.env` — Stores your API Key
 - `*.csv` — Provided datasets
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo and navigate into it
 2. Create `.env` file with your Gemini API key
